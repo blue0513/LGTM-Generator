@@ -19,7 +19,7 @@ def generate(file:, text:, color:)
     self.gravity = Magick::SouthEastGravity
   end
 
-  img.write('result.png')
+  img.write('output.jpg')
 end
 
 ARGV.each_with_index do |arg, i|
